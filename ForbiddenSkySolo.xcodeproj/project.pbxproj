@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6DFC032603BFC9008D1A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DFC022603BFC9008D1A50 /* AppDelegate.swift */; };
+		CD6DFC052603BFC9008D1A50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DFC042603BFC9008D1A50 /* SceneDelegate.swift */; };
+		CD6DFC072603BFC9008D1A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DFC062603BFC9008D1A50 /* ViewController.swift */; };
+		CD6DFC0A2603BFC9008D1A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6DFC082603BFC9008D1A50 /* Main.storyboard */; };
+		CD6DFC0C2603BFD0008D1A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6DFC0B2603BFD0008D1A50 /* Assets.xcassets */; };
+		CD6DFC0F2603BFD0008D1A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6DFC0D2603BFD0008D1A50 /* LaunchScreen.storyboard */; };
+		CD6DFC1A2603BFD0008D1A50 /* ForbiddenSkySoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DFC192603BFD0008D1A50 /* ForbiddenSkySoloTests.swift */; };
+		CD6DFC252603BFD0008D1A50 /* ForbiddenSkySoloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DFC242603BFD0008D1A50 /* ForbiddenSkySoloUITests.swift */; };
+		CD6DFC362603BFF3008D1A50 /* FBSky.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DFC352603BFF3008D1A50 /* FBSky.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6DFC162603BFD0008D1A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6DFBF72603BFC9008D1A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6DFBFE2603BFC9008D1A50;
+			remoteInfo = ForbiddenSkySolo;
+		};
+		CD6DFC212603BFD0008D1A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6DFBF72603BFC9008D1A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6DFBFE2603BFC9008D1A50;
+			remoteInfo = ForbiddenSkySolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6DFBFF2603BFC9008D1A50 /* ForbiddenSkySolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForbiddenSkySolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6DFC022603BFC9008D1A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6DFC042603BFC9008D1A50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD6DFC062603BFC9008D1A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD6DFC092603BFC9008D1A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6DFC0B2603BFD0008D1A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6DFC0E2603BFD0008D1A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6DFC102603BFD0008D1A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6DFC152603BFD0008D1A50 /* ForbiddenSkySoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForbiddenSkySoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6DFC192603BFD0008D1A50 /* ForbiddenSkySoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForbiddenSkySoloTests.swift; sourceTree = "<group>"; };
+		CD6DFC1B2603BFD0008D1A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6DFC202603BFD0008D1A50 /* ForbiddenSkySoloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForbiddenSkySoloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6DFC242603BFD0008D1A50 /* ForbiddenSkySoloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForbiddenSkySoloUITests.swift; sourceTree = "<group>"; };
+		CD6DFC262603BFD0008D1A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6DFC352603BFF3008D1A50 /* FBSky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBSky.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6DFBFC2603BFC9008D1A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DFC122603BFD0008D1A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DFC1D2603BFD0008D1A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6DFBF62603BFC9008D1A50 = {
+			isa = PBXGroup;
+			children = (
+				CD6DFC012603BFC9008D1A50 /* ForbiddenSkySolo */,
+				CD6DFC182603BFD0008D1A50 /* ForbiddenSkySoloTests */,
+				CD6DFC232603BFD0008D1A50 /* ForbiddenSkySoloUITests */,
+				CD6DFC002603BFC9008D1A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6DFC002603BFC9008D1A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DFBFF2603BFC9008D1A50 /* ForbiddenSkySolo.app */,
+				CD6DFC152603BFD0008D1A50 /* ForbiddenSkySoloTests.xctest */,
+				CD6DFC202603BFD0008D1A50 /* ForbiddenSkySoloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6DFC012603BFC9008D1A50 /* ForbiddenSkySolo */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DFC022603BFC9008D1A50 /* AppDelegate.swift */,
+				CD6DFC042603BFC9008D1A50 /* SceneDelegate.swift */,
+				CD6DFC062603BFC9008D1A50 /* ViewController.swift */,
+				CD6DFC352603BFF3008D1A50 /* FBSky.swift */,
+				CD6DFC082603BFC9008D1A50 /* Main.storyboard */,
+				CD6DFC0B2603BFD0008D1A50 /* Assets.xcassets */,
+				CD6DFC0D2603BFD0008D1A50 /* LaunchScreen.storyboard */,
+				CD6DFC102603BFD0008D1A50 /* Info.plist */,
+			);
+			path = ForbiddenSkySolo;
+			sourceTree = "<group>";
+		};
+		CD6DFC182603BFD0008D1A50 /* ForbiddenSkySoloTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DFC192603BFD0008D1A50 /* ForbiddenSkySoloTests.swift */,
+				CD6DFC1B2603BFD0008D1A50 /* Info.plist */,
+			);
+			path = ForbiddenSkySoloTests;
+			sourceTree = "<group>";
+		};
+		CD6DFC232603BFD0008D1A50 /* ForbiddenSkySoloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DFC242603BFD0008D1A50 /* ForbiddenSkySoloUITests.swift */,
+				CD6DFC262603BFD0008D1A50 /* Info.plist */,
+			);
+			path = ForbiddenSkySoloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6DFBFE2603BFC9008D1A50 /* ForbiddenSkySolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6DFC292603BFD0008D1A50 /* Build configuration list for PBXNativeTarget "ForbiddenSkySolo" */;
+			buildPhases = (
+				CD6DFBFB2603BFC9008D1A50 /* Sources */,
+				CD6DFBFC2603BFC9008D1A50 /* Frameworks */,
+				CD6DFBFD2603BFC9008D1A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForbiddenSkySolo;
+			productName = ForbiddenSkySolo;
+			productReference = CD6DFBFF2603BFC9008D1A50 /* ForbiddenSkySolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6DFC142603BFD0008D1A50 /* ForbiddenSkySoloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6DFC2C2603BFD0008D1A50 /* Build configuration list for PBXNativeTarget "ForbiddenSkySoloTests" */;
+			buildPhases = (
+				CD6DFC112603BFD0008D1A50 /* Sources */,
+				CD6DFC122603BFD0008D1A50 /* Frameworks */,
+				CD6DFC132603BFD0008D1A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6DFC172603BFD0008D1A50 /* PBXTargetDependency */,
+			);
+			name = ForbiddenSkySoloTests;
+			productName = ForbiddenSkySoloTests;
+			productReference = CD6DFC152603BFD0008D1A50 /* ForbiddenSkySoloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6DFC1F2603BFD0008D1A50 /* ForbiddenSkySoloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6DFC2F2603BFD0008D1A50 /* Build configuration list for PBXNativeTarget "ForbiddenSkySoloUITests" */;
+			buildPhases = (
+				CD6DFC1C2603BFD0008D1A50 /* Sources */,
+				CD6DFC1D2603BFD0008D1A50 /* Frameworks */,
+				CD6DFC1E2603BFD0008D1A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6DFC222603BFD0008D1A50 /* PBXTargetDependency */,
+			);
+			name = ForbiddenSkySoloUITests;
+			productName = ForbiddenSkySoloUITests;
+			productReference = CD6DFC202603BFD0008D1A50 /* ForbiddenSkySoloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6DFBF72603BFC9008D1A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CD6DFBFE2603BFC9008D1A50 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CD6DFC142603BFD0008D1A50 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CD6DFBFE2603BFC9008D1A50;
+					};
+					CD6DFC1F2603BFD0008D1A50 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CD6DFBFE2603BFC9008D1A50;
+					};
+				};
+			};
+			buildConfigurationList = CD6DFBFA2603BFC9008D1A50 /* Build configuration list for PBXProject "ForbiddenSkySolo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6DFBF62603BFC9008D1A50;
+			productRefGroup = CD6DFC002603BFC9008D1A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6DFBFE2603BFC9008D1A50 /* ForbiddenSkySolo */,
+				CD6DFC142603BFD0008D1A50 /* ForbiddenSkySoloTests */,
+				CD6DFC1F2603BFD0008D1A50 /* ForbiddenSkySoloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6DFBFD2603BFC9008D1A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6DFC0F2603BFD0008D1A50 /* LaunchScreen.storyboard in Resources */,
+				CD6DFC0C2603BFD0008D1A50 /* Assets.xcassets in Resources */,
+				CD6DFC0A2603BFC9008D1A50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DFC132603BFD0008D1A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DFC1E2603BFD0008D1A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6DFBFB2603BFC9008D1A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6DFC072603BFC9008D1A50 /* ViewController.swift in Sources */,
+				CD6DFC362603BFF3008D1A50 /* FBSky.swift in Sources */,
+				CD6DFC032603BFC9008D1A50 /* AppDelegate.swift in Sources */,
+				CD6DFC052603BFC9008D1A50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DFC112603BFD0008D1A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6DFC1A2603BFD0008D1A50 /* ForbiddenSkySoloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DFC1C2603BFD0008D1A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6DFC252603BFD0008D1A50 /* ForbiddenSkySoloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6DFC172603BFD0008D1A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6DFBFE2603BFC9008D1A50 /* ForbiddenSkySolo */;
+			targetProxy = CD6DFC162603BFD0008D1A50 /* PBXContainerItemProxy */;
+		};
+		CD6DFC222603BFD0008D1A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6DFBFE2603BFC9008D1A50 /* ForbiddenSkySolo */;
+			targetProxy = CD6DFC212603BFD0008D1A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6DFC082603BFC9008D1A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6DFC092603BFC9008D1A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6DFC0D2603BFD0008D1A50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6DFC0E2603BFD0008D1A50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6DFC272603BFD0008D1A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6DFC282603BFD0008D1A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6DFC2A2603BFD0008D1A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForbiddenSkySolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weewoo.ForbiddenSkySolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6DFC2B2603BFD0008D1A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForbiddenSkySolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weewoo.ForbiddenSkySolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD6DFC2D2603BFD0008D1A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForbiddenSkySoloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weewoo.ForbiddenSkySoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForbiddenSkySolo.app/ForbiddenSkySolo";
+			};
+			name = Debug;
+		};
+		CD6DFC2E2603BFD0008D1A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForbiddenSkySoloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weewoo.ForbiddenSkySoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForbiddenSkySolo.app/ForbiddenSkySolo";
+			};
+			name = Release;
+		};
+		CD6DFC302603BFD0008D1A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForbiddenSkySoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weewoo.ForbiddenSkySoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForbiddenSkySolo;
+			};
+			name = Debug;
+		};
+		CD6DFC312603BFD0008D1A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForbiddenSkySoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weewoo.ForbiddenSkySoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForbiddenSkySolo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6DFBFA2603BFC9008D1A50 /* Build configuration list for PBXProject "ForbiddenSkySolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6DFC272603BFD0008D1A50 /* Debug */,
+				CD6DFC282603BFD0008D1A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6DFC292603BFD0008D1A50 /* Build configuration list for PBXNativeTarget "ForbiddenSkySolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6DFC2A2603BFD0008D1A50 /* Debug */,
+				CD6DFC2B2603BFD0008D1A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6DFC2C2603BFD0008D1A50 /* Build configuration list for PBXNativeTarget "ForbiddenSkySoloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6DFC2D2603BFD0008D1A50 /* Debug */,
+				CD6DFC2E2603BFD0008D1A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6DFC2F2603BFD0008D1A50 /* Build configuration list for PBXNativeTarget "ForbiddenSkySoloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6DFC302603BFD0008D1A50 /* Debug */,
+				CD6DFC312603BFD0008D1A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6DFBF72603BFC9008D1A50 /* Project object */;
+}
